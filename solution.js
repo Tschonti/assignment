@@ -1,4 +1,4 @@
-const solution = (digits) => {
+const iterative = (digits) => {
     const keyboard = {
         "2": ["a", "b", "c"],
         "3": ["d", "e", "f"],
@@ -31,4 +31,4 @@ const solution = (digits) => {
     return results
 }
 
-exports.solution = solution
+exports.iterative = iterative

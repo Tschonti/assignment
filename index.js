@@ -41,4 +41,4 @@ const mergeSort = (array) => {
     return array
 }
 
-console.log(mergeSort(solution.solution(input)))
+console.log(mergeSort(solution.iterative(input)))
